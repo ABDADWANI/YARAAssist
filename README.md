@@ -15,17 +15,16 @@
 
 ---
 
-## Getting Started
+## How to Run
 
-### Prerequisites
-
-- Python 3.7 or higher installed
-- `pip` package manager
-
-### Installation
-
-1. Clone the repository:
-
+1. Clone this repo:  
 ```bash
 git clone https://github.com/ABDADWANI/YARAAssist.git
-cd YARAAssist
+
+2. Install dependencies:
+pip install -r requirements.txt
+
+3.Run the app:
+streamlit run app.py
+
+The app will open in your browser.
