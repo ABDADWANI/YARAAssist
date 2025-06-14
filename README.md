@@ -27,5 +27,5 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/YARAAssist.git
+git clone https://github.com/ABDADWANI/YARAAssist.git
 cd YARAAssist
