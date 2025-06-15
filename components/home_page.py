@@ -2,7 +2,6 @@ import streamlit as st
 from streamlit_extras.stylable_container import stylable_container
 
 def render_home():
-    # Cyber terminal-inspired hero section
     with stylable_container(
         key="hero_container",
         css_styles="""
@@ -24,7 +23,7 @@ def render_home():
             <div style="position: relative; z-index: 1;">
                 <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;">
                     <div style="width: 12px; height: 12px; border-radius: 50%; background: #7c3aed;"></div>
-                    <h1 style="color: white; margin: 0; font-family: 'Space Mono', monospace; font-size: 2rem;">YARAAssist Terminal</h1>
+                    <h1 style="color: white; margin: 0; font-family: 'Space Mono', monospace; font-size: 2rem;">YARAAssist</h1>
                 </div>
                 <div style="color: #94a3b8; margin-bottom: 1.5rem;">
                     <p style="margin: 0; font-size: 1.1rem;">>_ Initialize YARA rule</p>
@@ -35,7 +34,6 @@ def render_home():
             </div>
         """, unsafe_allow_html=True)
     
-    # Feature matrix
     st.markdown("""
         <div style="margin-bottom: 2rem;">
             <h2 style="color: white; font-family: 'Space Mono', monospace; border-bottom: 2px solid #334155; padding-bottom: 0.5rem;">CORE CAPABILITIES</h2>
@@ -66,7 +64,6 @@ def render_home():
             content="Enterprise-ready YARA rules formatted for immediate deployment in security infrastructure."
         )
     
-    # CTA section
     render_cta_section()
 
 def render_feature_card(title, content):
